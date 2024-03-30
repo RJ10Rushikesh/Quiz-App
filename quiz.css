@@ -1,0 +1,80 @@
+body{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#quest{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10vh;
+    padding-left: 5%;
+    font-size: larger;
+}
+
+#headsec{
+
+    background-color: rgb(157, 43, 157);
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+#options{
+    padding-top: 0vh;
+    
+}
+
+input[type="radio"]{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.btns{
+    margin-top: 6vh;
+    margin-left: 56vh;
+    background-color: rgb(117, 104, 104);
+    color: white;
+    padding: 4px 12px;
+    font-size: medium;
+}
+
+.radio-option{
+    border: 2px solid rgb(20, 26, 138);
+    margin-top: 7px;
+    border-radius: 5px;
+    
+
+}
+
+.radio-option label {
+    cursor: pointer; 
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#score{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: x-large;
+}
+
+#retry-btn{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(109, 156, 32);
+}

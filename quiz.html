@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="quiz.css">
+        <title>
+            Quiz App
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div id="headsec">
+            <p id="quest">Question <span id="queno">1</span></p>
+
+            <p id="questionText">What is the capital of Maharashtra?</p>
+        </div>
+
+        <div id="options">
+            <form>
+                <label>
+                    <div class="radio-option">
+                    
+                        <input type="radio" name="city" value="Pune">Pune<br>
+                    
+                    </div>
+                </label>
+
+                <label>
+                    <div class="radio-option">
+                        <input type="radio" name="city" value="Mumbai">Mumbai<br>
+                    </div>
+                </label>
+
+                <label>
+                    <div class="radio-option">
+                        <input type="radio" name="city" value="Nagpur">Nagpur<br>
+                    
+                    </div>
+                </label>
+
+                <label>
+                    <div class="radio-option">                    
+                        <input type="radio" name="city" value="Nashik">Nashik<br>
+                    </div>
+                </label>
+     
+            </form>   
+        </div>
+
+        <input type="button" value="Next" id="next-btn" class="btns">
+        <div id="score" style="display: none;">Score: <span id="score-value">0</span></div>
+
+        <input type="button" value="Retry" id="retry-btn" style="display: none;" class="btns">
+
+        <script src="quiz.js"></script>
+
+    </body>
+
+
+
+
+
+</html>
